@@ -33,7 +33,7 @@ function TinderCards(){
     };
 
     const outOfFrame = (name) => {
-        console.log(name+"has left the screen!")
+        console.log(name+" has left the screen!")
     }
 
     return (
