@@ -20,7 +20,7 @@ mongoose.connect(connection_url, {
 });
 
 //API Endpoints
-app.get("/", (req, res) => res.status(200).send("hello world"));
+app.get("/", (req, res) => res.status(200).send("Welcome to MERN-TINDER-BACKEND. Please post object to upload to main site "));
 
 app.post("/tinder/cards", (req,res) => {
    const dbCard = req.body;
