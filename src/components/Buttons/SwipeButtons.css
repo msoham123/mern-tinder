@@ -38,3 +38,42 @@
     background-color: #fff;
     box-shadow: 0 10px 53px 0 rgba(0,0,0,0.3);
 }
+
+@media all and (min-width: 1001px){
+
+    .swipeButtons .swipeButton_replay{
+        color: #f5b748;
+        width: .5vw;
+        height: .5vw;
+    }
+
+
+    .swipeButtons .swipeButton_close{
+        color: #ec5e6f;
+        width: .5vw;
+        height: .5vw;
+    }
+
+    .swipeButtons .swipeButton_star{
+        color: #62b4f9;
+        width: .5vw;
+        height: .5vw;
+    }
+
+    .swipeButtons .swipeButton_favorite{
+        color: #76e3b3;
+        width: .5vw;
+        height: .5vw;
+    }
+
+    .swipeButtons .swipeButton_lightning{
+        color: #915dd1;
+        width: .5vw;
+        height: .5vw;
+    }
+
+    .swipeButtons .MuiIconButton-root{
+        background-color: #fff;
+        box-shadow: 0 10px 53px 0 rgba(0,0,0,0.3);
+    }
+}
