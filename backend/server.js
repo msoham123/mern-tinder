@@ -47,3 +47,5 @@ app.get('/tinder/cards', (req,res) => {
 
 //Listener
 app.listen(port,()=> console.log("listening on localhost: " + port))
+
+// https://merntinder-backend.herokuapp.com/tinder/cards
